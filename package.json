@@ -1,0 +1,61 @@
+{
+  "name": "dsh-folderwatch",
+  "version": "0.1.0",
+  "description": "Directory watches for DeepSeek Harness: arm a folder, and wake the agent with an exact account of what changed — batched, deduplicated, and with the session's own writes filtered out.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "locale",
+    "icon.svg",
+    "README.md",
+    "README.zh.md",
+    "LICENSE",
+    "scripts"
+  ],
+  "scripts": {
+    "test": "node --test \"test/**/*.test.mjs\"",
+    "test:live": "node test/live-watch.mjs",
+    "setup:deps": "node scripts/link-host-deps.mjs"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "watch",
+    "watcher",
+    "filesystem",
+    "folder",
+    "trigger",
+    "wake",
+    "automation",
+    "inotify"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OWNER/dsh-folderwatch.git"
+  },
+  "homepage": "https://github.com/OWNER/dsh-folderwatch#readme",
+  "bugs": {
+    "url": "https://github.com/OWNER/dsh-folderwatch/issues"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "license": "MIT"
+}

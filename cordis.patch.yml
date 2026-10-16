@@ -1,0 +1,25 @@
+# dsh bundle patch: inserts this plugin into a profile's layer stack.
+#
+# `dsh plugin add dsh-folderwatch` reads `dsh.bundle.patch` from package.json
+# and merges the row below into ~/.dsh/profiles/<profile>/cordis.patch.yml, so
+# the user never edits that file by hand.
+#
+# Optional per-profile tuning (all keys are optional; defaults live in
+# lib/index.js). Declaring watches here arms them at load time — the usual path
+# is to arm them from a session with the folderwatch_add tool instead.
+#
+# - insert:
+#     - id: folderwatch
+#       name: 'dsh-folderwatch'
+#       config:
+#         quietMs: 400
+#         cooldownMs: 5000
+#         watches:
+#           - path: E:/work/reports
+#             label: reports
+#             pattern: '**/*.json'
+#             prompt: Read the new report and summarise what failed.
+#             mode: wake
+- insert:
+    - id: folderwatch
+      name: 'dsh-folderwatch'

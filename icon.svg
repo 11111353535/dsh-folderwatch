@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" role="img" aria-label="dsh-folderwatch">
+  <title>dsh-folderwatch</title>
+  <!-- A folder with a watching eye in the corner: the tree is the subject, the
+       eye is the thing that notices. Literal colours are fine here because this
+       is artwork, not themeable UI. -->
+  <path d="M4 9.5a2 2 0 0 1 2-2h6.2l2.4 2.6H26a2 2 0 0 1 2 2v13.4a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"
+        fill="none" stroke="#7c8794" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M11 18.5c1.4-2 3.2-3 5-3s3.6 1 5 3c-1.4 2-3.2 3-5 3s-3.6-1-5-3z"
+        fill="none" stroke="#7c8794" stroke-width="2.2" stroke-linejoin="round"/>
+  <circle cx="16" cy="18.5" r="1.7" fill="#e5484d"/>
+</svg>

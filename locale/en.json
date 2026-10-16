@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Folder Watch",
+    "description": "Arm a directory and wake the agent with an exact account of what changed: batched, deduplicated, and with this session's own writes filtered out."
+  }
+}
