@@ -48,7 +48,13 @@ Read the new report and summarise what failed.
 ## 安装
 
 ```
-dsh plugin add dsh-folderwatch
+dsh plugin add github:OWNER/dsh-folderwatch
+```
+
+想从本地检出装，就直接给绝对路径：
+
+```
+dsh plugin add /absolute/path/to/dsh-folderwatch
 ```
 
 本包故意不声明任何 `dsh-*` peer 依赖：它只 import `node:*` 以及 `@deepseek-ai/dsh-tools`、`@deepseek-ai/dsh-llm`、`@deepseek-ai/schemastery`，这些都由 harness 从自己的安装目录解析。包里不带任何可能遮蔽宿主副本的东西。

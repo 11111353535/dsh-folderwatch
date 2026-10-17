@@ -48,7 +48,13 @@ A watcher that can always interrupt is a watcher nobody leaves armed. The quiete
 ## Install
 
 ```
-dsh plugin add dsh-folderwatch
+dsh plugin add github:OWNER/dsh-folderwatch
+```
+
+From a checkout instead of a git host, pass the absolute path:
+
+```
+dsh plugin add /absolute/path/to/dsh-folderwatch
 ```
 
 The package declares no `dsh-*` peer dependency on purpose: it imports only `node:*` plus `@deepseek-ai/dsh-tools`, `@deepseek-ai/dsh-llm` and `@deepseek-ai/schemastery`, all of which the harness resolves from its own installation. Nothing is bundled that could shadow the host's copy.
