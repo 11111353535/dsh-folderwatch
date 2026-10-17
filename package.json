@@ -1,7 +1,7 @@
-{
+﻿{
   "name": "dsh-folderwatch",
   "version": "0.1.0",
-  "description": "Directory watches for DeepSeek Harness: arm a folder, and wake the agent with an exact account of what changed — batched, deduplicated, and with the session's own writes filtered out.",
+  "description": "Directory watches for DeepSeek Harness: arm a folder, and wake the agent with an exact account of what changed 鈥?batched, deduplicated, and with the session's own writes filtered out.",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -43,11 +43,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OWNER/dsh-folderwatch.git"
+    "url": "git+https://github.com/11111353535/dsh-folderwatch.git"
   },
-  "homepage": "https://github.com/OWNER/dsh-folderwatch#readme",
+  "homepage": "https://github.com/11111353535/dsh-folderwatch#readme",
   "bugs": {
-    "url": "https://github.com/OWNER/dsh-folderwatch/issues"
+    "url": "https://github.com/11111353535/dsh-folderwatch/issues"
   },
   "dsh": {
     "bundle": {
