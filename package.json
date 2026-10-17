@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "dsh-folderwatch",
   "version": "0.1.0",
   "description": "Directory watches for DeepSeek Harness: arm a folder, and wake the agent with an exact account of what changed 鈥?batched, deduplicated, and with the session's own writes filtered out.",
