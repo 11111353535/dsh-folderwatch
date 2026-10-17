@@ -48,7 +48,7 @@ Read the new report and summarise what failed.
 ## 安装
 
 ```
-dsh plugin add github:OWNER/dsh-folderwatch
+dsh plugin add https://github.com/11111353535/dsh-folderwatch
 ```
 
 想从本地检出装，就直接给绝对路径：

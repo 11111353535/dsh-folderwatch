@@ -48,7 +48,7 @@ A watcher that can always interrupt is a watcher nobody leaves armed. The quiete
 ## Install
 
 ```
-dsh plugin add github:OWNER/dsh-folderwatch
+dsh plugin add https://github.com/11111353535/dsh-folderwatch
 ```
 
 From a checkout instead of a git host, pass the absolute path:
